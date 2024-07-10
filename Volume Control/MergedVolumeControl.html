@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Image</title>
+    <style>
+        .plus {
+            background-image: url("https://thecreditsummit.com/wp-content/uploads/2024/07/vol_off.webp");
+            width: 130px;
+            height: 130px;
+            background-repeat: no-repeat;
+        }
+
+        .plus.minus {
+            background-image: url("https://thecreditsummit.com/wp-content/uploads/2024/07/vol_on.webp");
+            width: 130px;
+            height: 130px;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <a href="#"><div class="plus"></div></a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(".plus").click(function(){
+            $(this).toggleClass("minus");
+        });
+    </script>
+</body>
+</html>

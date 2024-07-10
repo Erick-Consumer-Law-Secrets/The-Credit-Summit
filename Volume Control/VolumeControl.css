@@ -1,0 +1,13 @@
+.plus{
+    background-image: url("https://thecreditsummit.com/wp-content/uploads/2024/07/vol_off.webp");
+    width:130px;
+    height:130px;
+    background-repeat:no-repeat;
+}
+
+.plus.minus{
+    background-image: url("https://thecreditsummit.com/wp-content/uploads/2024/07/vol_on.webp");
+    width:130px;
+    height:130px;
+    background-repeat:no-repeat;
+}
